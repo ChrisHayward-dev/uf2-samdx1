@@ -74,9 +74,14 @@ void system_init(void) {
   GCLK->CLKCTRL.reg = (clkctrl.reg | temp);
 
 #else
-
+#ifdef EXTERNAL_OSC
+    SYSCTRL->XOSC32K.reg =
+        SYSCTRL_XOSC32K_STARTUP(6) | SYSCTRL_XOSC32K_EN32K;
+        //SYSCTRL_XOSC32K_STARTUP(6);
+#else
     SYSCTRL->XOSC32K.reg =
         SYSCTRL_XOSC32K_STARTUP(6) | SYSCTRL_XOSC32K_XTALEN | SYSCTRL_XOSC32K_EN32K;
+#endif
     SYSCTRL->XOSC32K.bit.ENABLE = 1;
     while ((SYSCTRL->PCLKSR.reg & SYSCTRL_PCLKSR_XOSC32KRDY) == 0)
         ;
