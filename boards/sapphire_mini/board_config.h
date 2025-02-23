@@ -5,8 +5,8 @@
 #define VENDOR_NAME "GeoAcoustics Research"
 #define PRODUCT_NAME "Sapphire Mini"
 #define VOLUME_LABEL "GACBOOT"
-#define INDEX_URL "http://www.smu.edu/"
-#define BOARD_ID "SAMD21E18A-Sapphire-Mini"
+#define INDEX_URL ":"
+#define BOARD_ID "Sapphire-Mini"
 
 #define USB_VID 0x239A
 #define USB_PID 0x0015
