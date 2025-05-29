@@ -3,7 +3,7 @@ BOARD=zero
 include boards/$(BOARD)/board.mk
 CC=arm-none-eabi-gcc
 ifeq ($(CHIP_FAMILY), samd21)
-COMMON_FLAGS = -mthumb -mcpu=cortex-m0plus -Os -g -DSAMD21
+COMMON_FLAGS = -mthumb -mcpu=cortex-m0plus -Os -g -DSAMD21 -march=armv6-m
 endif
 ifeq ($(CHIP_FAMILY), samd51)
 COMMON_FLAGS = -mthumb -mcpu=cortex-m4 -O2 -g -DSAMD51
