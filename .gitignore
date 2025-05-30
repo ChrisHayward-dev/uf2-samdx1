@@ -1,8 +1,8 @@
-build/
 .vs/
 uf2-bootloader.elf
 tmp
 *.sw?
+*.o
 Makefile.user
 node_modules
 scripts/clean-ifaces/*.plist
