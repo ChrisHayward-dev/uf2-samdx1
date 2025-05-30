@@ -1,0 +1,597 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                              build/sapphire_mini/selfmain.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+b_sharp_received    0x1               build/sapphire_mini/usart_sam_ba.o
+timerHigh           0x4               build/sapphire_mini/utils.o
+idx_rx_write        0x1               build/sapphire_mini/usart_sam_ba.o
+size_of_data        0x2               build/sapphire_mini/usart_sam_ba.o
+bootloader_page_buf
+                    0x100             build/sapphire_mini/selfmain.o
+resetHorizon        0x4               build/sapphire_mini/utils.o
+idx_tx_read         0x1               build/sapphire_mini/usart_sam_ba.o
+buffer_tx_usart     0x80              build/sapphire_mini/usart_sam_ba.o
+error_timeout       0x1               build/sapphire_mini/usart_sam_ba.o
+mode_of_transfer    0x1               build/sapphire_mini/usart_sam_ba.o
+idx_rx_read         0x1               build/sapphire_mini/usart_sam_ba.o
+idx_tx_write        0x1               build/sapphire_mini/usart_sam_ba.o
+buffer_rx_usart     0x80              build/sapphire_mini/usart_sam_ba.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 build/sapphire_mini/flash_samd21.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/flash_samd21.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/flash_samd21.o
+ .text.flash_erase_to_end
+                0x0000000000000000       0x1c build/sapphire_mini/flash_samd21.o
+ .text.copy_words
+                0x0000000000000000       0x14 build/sapphire_mini/flash_samd21.o
+ .text.flash_write
+                0x0000000000000000       0x88 build/sapphire_mini/flash_samd21.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/init_samd21.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/init_samd21.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/init_samd21.o
+ .data.g_interrupt_enabled
+                0x0000000000000000        0x1 build/sapphire_mini/init_samd21.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/startup_samd21.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/startup_samd21.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/startup_samd21.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/usart_sam_ba.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/usart_sam_ba.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_open
+                0x0000000000000000       0xbc build/sapphire_mini/usart_sam_ba.o
+ .text.usart_close
+                0x0000000000000000       0x10 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_putc
+                0x0000000000000000       0x14 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_getc
+                0x0000000000000000       0x10 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_is_rx_ready
+                0x0000000000000000       0x10 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_sharp_received
+                0x0000000000000000       0x1a build/sapphire_mini/usart_sam_ba.o
+ .text.usart_readc
+                0x0000000000000000       0x20 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_putdata
+                0x0000000000000000       0x1a build/sapphire_mini/usart_sam_ba.o
+ .text.usart_getdata
+                0x0000000000000000        0xe build/sapphire_mini/usart_sam_ba.o
+ .text.getbytes
+                0x0000000000000000       0x68 build/sapphire_mini/usart_sam_ba.o
+ .text.getPacket
+                0x0000000000000000       0x70 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_putdata_xmd
+                0x0000000000000000      0x110 build/sapphire_mini/usart_sam_ba.o
+ .text.usart_getdata_xmd
+                0x0000000000000000       0xb8 build/sapphire_mini/usart_sam_ba.o
+ COMMON         0x0000000000000000      0x109 build/sapphire_mini/usart_sam_ba.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/screen.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/screen.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/screen.o
+ .debug_info    0x0000000000000000      0x8fb build/sapphire_mini/screen.o
+ .debug_abbrev  0x0000000000000000      0x18e build/sapphire_mini/screen.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/sapphire_mini/screen.o
+ .debug_line    0x0000000000000000      0x105 build/sapphire_mini/screen.o
+ .debug_str     0x0000000000000000      0x5d3 build/sapphire_mini/screen.o
+ .comment       0x0000000000000000       0x32 build/sapphire_mini/screen.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/sapphire_mini/screen.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/images.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/images.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/images.o
+ .rodata.arrowLogo
+                0x0000000000000000       0x39 build/sapphire_mini/images.o
+ .rodata.fileLogo
+                0x0000000000000000       0x4a build/sapphire_mini/images.o
+ .rodata.font8  0x0000000000000000      0x240 build/sapphire_mini/images.o
+ .rodata.pendriveLogo
+                0x0000000000000000       0x3e build/sapphire_mini/images.o
+ .debug_info    0x0000000000000000      0x11f build/sapphire_mini/images.o
+ .debug_abbrev  0x0000000000000000       0x66 build/sapphire_mini/images.o
+ .debug_aranges
+                0x0000000000000000       0x18 build/sapphire_mini/images.o
+ .debug_line    0x0000000000000000       0x82 build/sapphire_mini/images.o
+ .debug_str     0x0000000000000000      0x1a5 build/sapphire_mini/images.o
+ .comment       0x0000000000000000       0x32 build/sapphire_mini/images.o
+ .ARM.attributes
+                0x0000000000000000       0x32 build/sapphire_mini/images.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/utils.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/utils.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/utils.o
+ .text.writeNum
+                0x0000000000000000       0x3c build/sapphire_mini/utils.o
+ .text.timerTick
+                0x0000000000000000       0x40 build/sapphire_mini/utils.o
+ .text.led_signal
+                0x0000000000000000       0x28 build/sapphire_mini/utils.o
+ .text.RGBLED_set_color
+                0x0000000000000000        0x2 build/sapphire_mini/utils.o
+ .bss.timerLow  0x0000000000000000        0x4 build/sapphire_mini/utils.o
+ COMMON         0x0000000000000000        0x8 build/sapphire_mini/utils.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/selfmain.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/selfmain.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/selfmain.o
+ .text          0x0000000000000000        0x0 build/sapphire_mini/selfdata.o
+ .data          0x0000000000000000        0x0 build/sapphire_mini/selfdata.o
+ .bss           0x0000000000000000        0x0 build/sapphire_mini/selfdata.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000002000 0x0000000000020000 xr
+ram              0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD build/sapphire_mini/flash_samd21.o
+LOAD build/sapphire_mini/init_samd21.o
+LOAD build/sapphire_mini/startup_samd21.o
+LOAD build/sapphire_mini/usart_sam_ba.o
+LOAD build/sapphire_mini/screen.o
+LOAD build/sapphire_mini/images.o
+LOAD build/sapphire_mini/utils.o
+LOAD build/sapphire_mini/selfmain.o
+LOAD build/sapphire_mini/selfdata.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+END GROUP
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/thumb/v6-m/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libc_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libnosys.a
+END GROUP
+                0x0000000000002000                STACK_SIZE = DEFINED (STACK_SIZE)?STACK_SIZE:DEFINED (__stack_size__)?__stack_size__:0x2000
+
+.text           0x0000000000002000     0x267c
+                0x0000000000002000                . = ALIGN (0x4)
+                0x0000000000002000                _sfixed = .
+ *(.vectors .vectors.*)
+ .vectors       0x0000000000002000       0xb4 build/sapphire_mini/startup_samd21.o
+                0x0000000000002000                exception_table
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text.flash_erase_row
+                0x00000000000020b4       0x28 build/sapphire_mini/flash_samd21.o
+                0x00000000000020b4                flash_erase_row
+ .text.flash_write_words
+                0x00000000000020dc       0x54 build/sapphire_mini/flash_samd21.o
+                0x00000000000020dc                flash_write_words
+ .text.flash_write_row
+                0x0000000000002130       0x2e build/sapphire_mini/flash_samd21.o
+                0x0000000000002130                flash_write_row
+ *fill*         0x000000000000215e        0x2 
+ .text.gclk_sync
+                0x0000000000002160       0x10 build/sapphire_mini/init_samd21.o
+ .text.dfll_sync
+                0x0000000000002170       0x10 build/sapphire_mini/init_samd21.o
+ .text.system_init
+                0x0000000000002180       0xd8 build/sapphire_mini/init_samd21.o
+                0x0000000000002180                system_init
+ .text.SysTick_Handler
+                0x0000000000002258        0x8 build/sapphire_mini/init_samd21.o
+                0x0000000000002258                SysTick_Handler
+ .text.Dummy_Handler
+                0x0000000000002260        0x2 build/sapphire_mini/startup_samd21.o
+                0x0000000000002260                DMAC_Handler
+                0x0000000000002260                AC_Handler
+                0x0000000000002260                PendSV_Handler
+                0x0000000000002260                NMI_Handler
+                0x0000000000002260                SERCOM1_Handler
+                0x0000000000002260                ADC_Handler
+                0x0000000000002260                TCC1_Handler
+                0x0000000000002260                SERCOM2_Handler
+                0x0000000000002260                TCC0_Handler
+                0x0000000000002260                RTC_Handler
+                0x0000000000002260                EIC_Handler
+                0x0000000000002260                WDT_Handler
+                0x0000000000002260                TC4_Handler
+                0x0000000000002260                USB_Handler
+                0x0000000000002260                TC3_Handler
+                0x0000000000002260                Dummy_Handler
+                0x0000000000002260                PM_Handler
+                0x0000000000002260                SERCOM5_Handler
+                0x0000000000002260                SVC_Handler
+                0x0000000000002260                TCC2_Handler
+                0x0000000000002260                EVSYS_Handler
+                0x0000000000002260                SERCOM3_Handler
+                0x0000000000002260                SERCOM4_Handler
+                0x0000000000002260                I2S_Handler
+                0x0000000000002260                NVMCTRL_Handler
+                0x0000000000002260                SERCOM0_Handler
+                0x0000000000002260                DAC_Handler
+                0x0000000000002260                PTC_Handler
+                0x0000000000002260                TC5_Handler
+                0x0000000000002260                SYSCTRL_Handler
+ .text.HardFault_Handler
+                0x0000000000002262        0x2 build/sapphire_mini/startup_samd21.o
+                0x0000000000002262                HardFault_Handler
+ .text.Reset_Handler
+                0x0000000000002264       0xb0 build/sapphire_mini/startup_samd21.o
+                0x0000000000002264                Reset_Handler
+ .text.add_crc  0x0000000000002314       0x54 build/sapphire_mini/usart_sam_ba.o
+                0x0000000000002314                add_crc
+ .text.delay    0x0000000000002368       0x28 build/sapphire_mini/utils.o
+                0x0000000000002368                delay
+ .text.panic    0x0000000000002390        0x2 build/sapphire_mini/utils.o
+                0x0000000000002390                panic
+ *fill*         0x0000000000002392        0x2 
+ .text.resetIntoApp
+                0x0000000000002394       0x28 build/sapphire_mini/utils.o
+                0x0000000000002394                resetIntoApp
+ .text.resetIntoBootloader
+                0x00000000000023bc       0x28 build/sapphire_mini/utils.o
+                0x00000000000023bc                resetIntoBootloader
+ .text.led_tick
+                0x00000000000023e4       0x84 build/sapphire_mini/utils.o
+                0x00000000000023e4                led_tick
+ .text.led_init
+                0x0000000000002468       0x10 build/sapphire_mini/utils.o
+                0x0000000000002468                led_init
+ .text.nvmctrl_exec_cmd
+                0x0000000000002478       0x2c build/sapphire_mini/selfmain.o
+ .text.set_fuses_and_bootprot
+                0x00000000000024a4       0x7c build/sapphire_mini/selfmain.o
+                0x00000000000024a4                set_fuses_and_bootprot
+ .text.startup.main
+                0x0000000000002520       0xc8 build/sapphire_mini/selfmain.o
+                0x0000000000002520                main
+ .text          0x00000000000025e8       0x84 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                0x00000000000025e8                memcpy
+ *(.glue_7t)
+ .glue_7t       0x000000000000266c        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000000000000266c        0x0 linker stubs
+ *(.rodata .rodata* .gnu.linkonce.r.*)
+ .rodata.bootloader
+                0x000000000000266c     0x2000 build/sapphire_mini/selfdata.o
+                0x000000000000266c                bootloader
+ .rodata.bootloader_crcs
+                0x000000000000466c       0x10 build/sapphire_mini/selfdata.o
+                0x000000000000466c                bootloader_crcs
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000000467c                . = ALIGN (0x4)
+ *(.init)
+                0x000000000000467c                . = ALIGN (0x4)
+                0x000000000000467c                __preinit_array_start = .
+ *(.preinit_array)
+                0x000000000000467c                __preinit_array_end = .
+                0x000000000000467c                . = ALIGN (0x4)
+                0x000000000000467c                __init_array_start = .
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x000000000000467c                __init_array_end = .
+                0x000000000000467c                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+                0x000000000000467c                . = ALIGN (0x4)
+                0x000000000000467c                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start, .)
+
+.vfp11_veneer   0x000000000000467c        0x0
+ .vfp11_veneer  0x000000000000467c        0x0 linker stubs
+
+.v4_bx          0x000000000000467c        0x0
+ .v4_bx         0x000000000000467c        0x0 linker stubs
+
+.iplt           0x000000000000467c        0x0
+ .iplt          0x000000000000467c        0x0 build/sapphire_mini/flash_samd21.o
+
+.igot.plt       0x000000000000467c        0x0
+ .igot.plt      0x000000000000467c        0x0 build/sapphire_mini/flash_samd21.o
+
+.rel.dyn        0x000000000000467c        0x0
+ .rel.iplt      0x000000000000467c        0x0 build/sapphire_mini/flash_samd21.o
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end, .)
+                0x000000000000467c                . = ALIGN (0x4)
+                0x000000000000467c                _etext = .
+
+.relocate       0x0000000020000000        0x8 load address 0x000000000000467c
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _srelocate = .
+ *(.ramfunc .ramfunc.*)
+ *(.data .data.*)
+ .data.current_cpu_frequency_MHz
+                0x0000000020000000        0x4 build/sapphire_mini/init_samd21.o
+                0x0000000020000000                current_cpu_frequency_MHz
+ .data.led_tick_step
+                0x0000000020000004        0x1 build/sapphire_mini/utils.o
+                0x0000000020000004                led_tick_step
+ .data.limit    0x0000000020000005        0x1 build/sapphire_mini/utils.o
+                0x0000000020000008                . = ALIGN (0x4)
+ *fill*         0x0000000020000006        0x2 
+                0x0000000020000008                _erelocate = .
+
+.bss            0x0000000020000008      0x30c load address 0x0000000000004684
+                0x0000000020000008                . = ALIGN (0x4)
+                0x0000000020000008                _sbss = .
+                0x0000000020000008                _szero = .
+ *(.bss .bss.*)
+ .bss.crcCache  0x0000000020000008      0x200 build/sapphire_mini/usart_sam_ba.o
+ .bss.led_tick_on
+                0x0000000020000208        0x1 build/sapphire_mini/utils.o
+                0x0000000020000208                led_tick_on
+ *fill*         0x0000000020000209        0x3 
+ .bss.now       0x000000002000020c        0x4 build/sapphire_mini/utils.o
+ .bss.signal_end
+                0x0000000020000210        0x4 build/sapphire_mini/utils.o
+ *(COMMON)
+ COMMON         0x0000000020000214      0x100 build/sapphire_mini/selfmain.o
+                0x0000000020000214                bootloader_page_buf
+                0x0000000020000314                . = ALIGN (0x4)
+                0x0000000020000314                _ebss = .
+                0x0000000020000314                _ezero = .
+
+.stack          0x0000000020000314     0x2004 load address 0x0000000000004990
+                0x0000000020000318                . = ALIGN (0x8)
+ *fill*         0x0000000020000314        0x4 
+                0x0000000020000318                _sstack = .
+                0x0000000020002318                . = (. + STACK_SIZE)
+ *fill*         0x0000000020000318     0x2000 
+                0x0000000020002318                . = ALIGN (0x8)
+                0x0000000020002318                _estack = .
+                0x0000000020002318                . = ALIGN (0x4)
+                0x0000000020002318                _end = .
+OUTPUT(build/sapphire_mini/update-bootloader-sapphire_mini-v3.14.0-10-g52deb7d.elf elf32-littlearm)
+
+.debug_info     0x0000000000000000     0xda38
+ .debug_info    0x0000000000000000      0xfa7 build/sapphire_mini/flash_samd21.o
+ .debug_info    0x0000000000000fa7     0x234a build/sapphire_mini/init_samd21.o
+ .debug_info    0x00000000000032f1     0x35cc build/sapphire_mini/startup_samd21.o
+ .debug_info    0x00000000000068bd     0x3d3a build/sapphire_mini/usart_sam_ba.o
+ .debug_info    0x000000000000a5f7     0x1253 build/sapphire_mini/utils.o
+ .debug_info    0x000000000000b84a     0x17d0 build/sapphire_mini/selfmain.o
+ .debug_info    0x000000000000d01a       0xef build/sapphire_mini/selfdata.o
+ .debug_info    0x000000000000d109      0x92f /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_abbrev   0x0000000000000000     0x15dc
+ .debug_abbrev  0x0000000000000000      0x2af build/sapphire_mini/flash_samd21.o
+ .debug_abbrev  0x00000000000002af      0x32e build/sapphire_mini/init_samd21.o
+ .debug_abbrev  0x00000000000005dd      0x25b build/sapphire_mini/startup_samd21.o
+ .debug_abbrev  0x0000000000000838      0x487 build/sapphire_mini/usart_sam_ba.o
+ .debug_abbrev  0x0000000000000cbf      0x35d build/sapphire_mini/utils.o
+ .debug_abbrev  0x000000000000101c      0x3a6 build/sapphire_mini/selfmain.o
+ .debug_abbrev  0x00000000000013c2       0x77 build/sapphire_mini/selfdata.o
+ .debug_abbrev  0x0000000000001439      0x1a3 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_loc      0x0000000000000000     0x12a8
+ .debug_loc     0x0000000000000000      0x3b9 build/sapphire_mini/flash_samd21.o
+ .debug_loc     0x00000000000003b9       0x78 build/sapphire_mini/init_samd21.o
+ .debug_loc     0x0000000000000431       0x2b build/sapphire_mini/startup_samd21.o
+ .debug_loc     0x000000000000045c      0x83f build/sapphire_mini/usart_sam_ba.o
+ .debug_loc     0x0000000000000c9b      0x10f build/sapphire_mini/utils.o
+ .debug_loc     0x0000000000000daa      0x23e build/sapphire_mini/selfmain.o
+ .debug_loc     0x0000000000000fe8      0x2c0 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_aranges  0x0000000000000000      0x208
+ .debug_aranges
+                0x0000000000000000       0x48 build/sapphire_mini/flash_samd21.o
+ .debug_aranges
+                0x0000000000000048       0x38 build/sapphire_mini/init_samd21.o
+ .debug_aranges
+                0x0000000000000080       0x30 build/sapphire_mini/startup_samd21.o
+ .debug_aranges
+                0x00000000000000b0       0x88 build/sapphire_mini/usart_sam_ba.o
+ .debug_aranges
+                0x0000000000000138       0x68 build/sapphire_mini/utils.o
+ .debug_aranges
+                0x00000000000001a0       0x30 build/sapphire_mini/selfmain.o
+ .debug_aranges
+                0x00000000000001d0       0x18 build/sapphire_mini/selfdata.o
+ .debug_aranges
+                0x00000000000001e8       0x20 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_ranges   0x0000000000000000      0x270
+ .debug_ranges  0x0000000000000000       0xa0 build/sapphire_mini/flash_samd21.o
+ .debug_ranges  0x00000000000000a0       0x48 build/sapphire_mini/init_samd21.o
+ .debug_ranges  0x00000000000000e8       0x20 build/sapphire_mini/startup_samd21.o
+ .debug_ranges  0x0000000000000108       0x90 build/sapphire_mini/usart_sam_ba.o
+ .debug_ranges  0x0000000000000198       0x70 build/sapphire_mini/utils.o
+ .debug_ranges  0x0000000000000208       0x68 build/sapphire_mini/selfmain.o
+
+.debug_line     0x0000000000000000     0x1194
+ .debug_line    0x0000000000000000      0x23f build/sapphire_mini/flash_samd21.o
+ .debug_line    0x000000000000023f      0x246 build/sapphire_mini/init_samd21.o
+ .debug_line    0x0000000000000485      0x196 build/sapphire_mini/startup_samd21.o
+ .debug_line    0x000000000000061b      0x3e4 build/sapphire_mini/usart_sam_ba.o
+ .debug_line    0x00000000000009ff      0x2d0 build/sapphire_mini/utils.o
+ .debug_line    0x0000000000000ccf      0x2b0 build/sapphire_mini/selfmain.o
+ .debug_line    0x0000000000000f7f       0x94 build/sapphire_mini/selfdata.o
+ .debug_line    0x0000000000001013      0x181 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_str      0x0000000000000000     0x2cb9
+ .debug_str     0x0000000000000000      0x729 build/sapphire_mini/flash_samd21.o
+                                        0x80c (size before relaxing)
+ .debug_str     0x0000000000000729      0x6f4 build/sapphire_mini/init_samd21.o
+                                        0xe9c (size before relaxing)
+ .debug_str     0x0000000000000e1d      0xedd build/sapphire_mini/startup_samd21.o
+                                       0x1340 (size before relaxing)
+ .debug_str     0x0000000000001cfa      0xc4f build/sapphire_mini/usart_sam_ba.o
+                                       0x13d7 (size before relaxing)
+ .debug_str     0x0000000000002949       0xc8 build/sapphire_mini/utils.o
+                                        0x87d (size before relaxing)
+ .debug_str     0x0000000000002a11       0xd6 build/sapphire_mini/selfmain.o
+                                        0xa61 (size before relaxing)
+ .debug_str     0x0000000000002ae7       0x1f build/sapphire_mini/selfdata.o
+                                        0x1c0 (size before relaxing)
+ .debug_str     0x0000000000002b06      0x1b3 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                                        0x5e5 (size before relaxing)
+
+.comment        0x0000000000000000       0x31
+ .comment       0x0000000000000000       0x31 build/sapphire_mini/flash_samd21.o
+                                         0x32 (size before relaxing)
+ .comment       0x0000000000000031       0x32 build/sapphire_mini/init_samd21.o
+ .comment       0x0000000000000031       0x32 build/sapphire_mini/startup_samd21.o
+ .comment       0x0000000000000031       0x32 build/sapphire_mini/usart_sam_ba.o
+ .comment       0x0000000000000031       0x32 build/sapphire_mini/utils.o
+ .comment       0x0000000000000031       0x32 build/sapphire_mini/selfmain.o
+ .comment       0x0000000000000031       0x32 build/sapphire_mini/selfdata.o
+ .comment       0x0000000000000031       0x32 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.ARM.attributes
+                0x0000000000000000       0x32
+ .ARM.attributes
+                0x0000000000000000       0x32 build/sapphire_mini/flash_samd21.o
+ .ARM.attributes
+                0x0000000000000032       0x32 build/sapphire_mini/init_samd21.o
+ .ARM.attributes
+                0x0000000000000064       0x32 build/sapphire_mini/startup_samd21.o
+ .ARM.attributes
+                0x0000000000000096       0x32 build/sapphire_mini/usart_sam_ba.o
+ .ARM.attributes
+                0x00000000000000c8       0x32 build/sapphire_mini/utils.o
+ .ARM.attributes
+                0x00000000000000fa       0x32 build/sapphire_mini/selfmain.o
+ .ARM.attributes
+                0x000000000000012c       0x32 build/sapphire_mini/selfdata.o
+ .ARM.attributes
+                0x000000000000015e       0x2c /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+.debug_frame    0x0000000000000000      0x44c
+ .debug_frame   0x0000000000000000       0xb0 build/sapphire_mini/flash_samd21.o
+ .debug_frame   0x00000000000000b0       0x68 build/sapphire_mini/init_samd21.o
+ .debug_frame   0x0000000000000118       0x4c build/sapphire_mini/startup_samd21.o
+ .debug_frame   0x0000000000000164      0x184 build/sapphire_mini/usart_sam_ba.o
+ .debug_frame   0x00000000000002e8       0xd0 build/sapphire_mini/utils.o
+ .debug_frame   0x00000000000003b8       0x64 build/sapphire_mini/selfmain.o
+ .debug_frame   0x000000000000041c       0x30 /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+
+Cross Reference Table
+
+Symbol                                            File
+AC_Handler                                        build/sapphire_mini/startup_samd21.o
+ADC_Handler                                       build/sapphire_mini/startup_samd21.o
+DAC_Handler                                       build/sapphire_mini/startup_samd21.o
+DMAC_Handler                                      build/sapphire_mini/startup_samd21.o
+Dummy_Handler                                     build/sapphire_mini/startup_samd21.o
+EIC_Handler                                       build/sapphire_mini/startup_samd21.o
+EVSYS_Handler                                     build/sapphire_mini/startup_samd21.o
+HardFault_Handler                                 build/sapphire_mini/startup_samd21.o
+I2S_Handler                                       build/sapphire_mini/startup_samd21.o
+NMI_Handler                                       build/sapphire_mini/startup_samd21.o
+NVMCTRL_Handler                                   build/sapphire_mini/startup_samd21.o
+PM_Handler                                        build/sapphire_mini/startup_samd21.o
+PTC_Handler                                       build/sapphire_mini/startup_samd21.o
+PendSV_Handler                                    build/sapphire_mini/startup_samd21.o
+RGBLED_set_color                                  build/sapphire_mini/utils.o
+RTC_Handler                                       build/sapphire_mini/startup_samd21.o
+Reset_Handler                                     build/sapphire_mini/startup_samd21.o
+SERCOM0_Handler                                   build/sapphire_mini/startup_samd21.o
+SERCOM1_Handler                                   build/sapphire_mini/startup_samd21.o
+SERCOM2_Handler                                   build/sapphire_mini/startup_samd21.o
+SERCOM3_Handler                                   build/sapphire_mini/startup_samd21.o
+SERCOM4_Handler                                   build/sapphire_mini/startup_samd21.o
+SERCOM5_Handler                                   build/sapphire_mini/startup_samd21.o
+SVC_Handler                                       build/sapphire_mini/startup_samd21.o
+SYSCTRL_Handler                                   build/sapphire_mini/startup_samd21.o
+SysTick_Handler                                   build/sapphire_mini/init_samd21.o
+TC3_Handler                                       build/sapphire_mini/startup_samd21.o
+TC4_Handler                                       build/sapphire_mini/startup_samd21.o
+TC5_Handler                                       build/sapphire_mini/startup_samd21.o
+TCC0_Handler                                      build/sapphire_mini/startup_samd21.o
+TCC1_Handler                                      build/sapphire_mini/startup_samd21.o
+TCC2_Handler                                      build/sapphire_mini/startup_samd21.o
+USB_Handler                                       build/sapphire_mini/startup_samd21.o
+WDT_Handler                                       build/sapphire_mini/startup_samd21.o
+_erelocate                                        build/sapphire_mini/startup_samd21.o
+_estack                                           build/sapphire_mini/startup_samd21.o
+_etext                                            build/sapphire_mini/startup_samd21.o
+_ezero                                            build/sapphire_mini/startup_samd21.o
+_sfixed                                           build/sapphire_mini/startup_samd21.o
+_srelocate                                        build/sapphire_mini/startup_samd21.o
+_szero                                            build/sapphire_mini/startup_samd21.o
+add_crc                                           build/sapphire_mini/usart_sam_ba.o
+                                                  build/sapphire_mini/selfmain.o
+arrowLogo                                         build/sapphire_mini/images.o
+b_sharp_received                                  build/sapphire_mini/usart_sam_ba.o
+bootloader                                        build/sapphire_mini/selfdata.o
+                                                  build/sapphire_mini/selfmain.o
+bootloader_crcs                                   build/sapphire_mini/selfdata.o
+                                                  build/sapphire_mini/selfmain.o
+bootloader_page_buf                               build/sapphire_mini/selfmain.o
+buffer_rx_usart                                   build/sapphire_mini/usart_sam_ba.o
+buffer_tx_usart                                   build/sapphire_mini/usart_sam_ba.o
+copy_words                                        build/sapphire_mini/flash_samd21.o
+current_cpu_frequency_MHz                         build/sapphire_mini/init_samd21.o
+                                                  build/sapphire_mini/utils.o
+delay                                             build/sapphire_mini/utils.o
+                                                  build/sapphire_mini/selfmain.o
+error_timeout                                     build/sapphire_mini/usart_sam_ba.o
+exception_table                                   build/sapphire_mini/startup_samd21.o
+fileLogo                                          build/sapphire_mini/images.o
+flash_erase_row                                   build/sapphire_mini/flash_samd21.o
+flash_erase_to_end                                build/sapphire_mini/flash_samd21.o
+flash_write                                       build/sapphire_mini/flash_samd21.o
+flash_write_row                                   build/sapphire_mini/flash_samd21.o
+                                                  build/sapphire_mini/selfmain.o
+flash_write_words                                 build/sapphire_mini/flash_samd21.o
+                                                  build/sapphire_mini/selfmain.o
+font8                                             build/sapphire_mini/images.o
+g_interrupt_enabled                               build/sapphire_mini/init_samd21.o
+getPacket                                         build/sapphire_mini/usart_sam_ba.o
+idx_rx_read                                       build/sapphire_mini/usart_sam_ba.o
+idx_rx_write                                      build/sapphire_mini/usart_sam_ba.o
+idx_tx_read                                       build/sapphire_mini/usart_sam_ba.o
+idx_tx_write                                      build/sapphire_mini/usart_sam_ba.o
+led_init                                          build/sapphire_mini/utils.o
+                                                  build/sapphire_mini/selfmain.o
+led_signal                                        build/sapphire_mini/utils.o
+led_tick                                          build/sapphire_mini/utils.o
+                                                  build/sapphire_mini/init_samd21.o
+led_tick_on                                       build/sapphire_mini/utils.o
+led_tick_step                                     build/sapphire_mini/utils.o
+main                                              build/sapphire_mini/selfmain.o
+                                                  build/sapphire_mini/startup_samd21.o
+memcpy                                            /usr/lib/gcc/arm-none-eabi/6.3.1/../../../arm-none-eabi/lib/thumb/v6-m/libg_nano.a(lib_a-memcpy-stub.o)
+                                                  build/sapphire_mini/selfmain.o
+mode_of_transfer                                  build/sapphire_mini/usart_sam_ba.o
+panic                                             build/sapphire_mini/utils.o
+                                                  build/sapphire_mini/selfmain.o
+pendriveLogo                                      build/sapphire_mini/images.o
+resetHorizon                                      build/sapphire_mini/utils.o
+resetIntoApp                                      build/sapphire_mini/utils.o
+                                                  build/sapphire_mini/selfmain.o
+resetIntoBootloader                               build/sapphire_mini/utils.o
+                                                  build/sapphire_mini/selfmain.o
+set_fuses_and_bootprot                            build/sapphire_mini/selfmain.o
+size_of_data                                      build/sapphire_mini/usart_sam_ba.o
+system_init                                       build/sapphire_mini/init_samd21.o
+                                                  build/sapphire_mini/selfmain.o
+timerHigh                                         build/sapphire_mini/utils.o
+timerTick                                         build/sapphire_mini/utils.o
+uart_basic_init                                   build/sapphire_mini/usart_sam_ba.o
+uart_disable                                      build/sapphire_mini/usart_sam_ba.o
+uart_get_sercom_index                             build/sapphire_mini/usart_sam_ba.o
+uart_read_byte                                    build/sapphire_mini/usart_sam_ba.o
+uart_write_byte                                   build/sapphire_mini/usart_sam_ba.o
+usart_close                                       build/sapphire_mini/usart_sam_ba.o
+usart_getc                                        build/sapphire_mini/usart_sam_ba.o
+usart_getdata                                     build/sapphire_mini/usart_sam_ba.o
+usart_getdata_xmd                                 build/sapphire_mini/usart_sam_ba.o
+usart_is_rx_ready                                 build/sapphire_mini/usart_sam_ba.o
+usart_open                                        build/sapphire_mini/usart_sam_ba.o
+usart_putc                                        build/sapphire_mini/usart_sam_ba.o
+usart_putdata                                     build/sapphire_mini/usart_sam_ba.o
+usart_putdata_xmd                                 build/sapphire_mini/usart_sam_ba.o
+usart_readc                                       build/sapphire_mini/usart_sam_ba.o
+usart_sharp_received                              build/sapphire_mini/usart_sam_ba.o
+writeNum                                          build/sapphire_mini/utils.o
