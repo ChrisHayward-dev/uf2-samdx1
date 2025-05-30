@@ -5,7 +5,8 @@
 #define VENDOR_NAME "GeoAcoustics Research"
 #define PRODUCT_NAME "Sapphire Mini"
 #define VOLUME_LABEL "GACBOOT"
-#define INDEX_URL ":"
+
+#define INDEX_URL "https://github.com/ChrisHayward-dev/SapphireReleases"
 #define BOARD_ID "Sapphire-Mini"
 
 #define USB_VID 0x239A
